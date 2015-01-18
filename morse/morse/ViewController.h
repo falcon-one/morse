@@ -7,8 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
 @interface ViewController : UIViewController
+{
+    IBOutlet UISwitch *ledLightSwitch;
+}
+
+- (IBAction)changeSwitch:(id)sender;
 
 
 @end

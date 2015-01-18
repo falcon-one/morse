@@ -14,6 +14,7 @@
 		2823440A1A57C8E900B34FC7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 282344091A57C8E900B34FC7 /* Images.xcassets */; };
 		2823440D1A57C8E900B34FC7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2823440B1A57C8E900B34FC7 /* LaunchScreen.xib */; };
 		282344191A57C8E900B34FC7 /* morseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 282344181A57C8E900B34FC7 /* morseTests.m */; };
+		28944BF31A6BC6840074F97B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28944BF21A6BC6840074F97B /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		282344121A57C8E900B34FC7 /* morseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = morseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		282344171A57C8E900B34FC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		282344181A57C8E900B34FC7 /* morseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = morseTests.m; sourceTree = "<group>"; };
+		28944BF21A6BC6840074F97B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28944BF31A6BC6840074F97B /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		282343F01A57C8E900B34FC7 = {
 			isa = PBXGroup;
 			children = (
+				28944BF21A6BC6840074F97B /* AVFoundation.framework */,
 				282343FB1A57C8E900B34FC7 /* morse */,
 				282344151A57C8E900B34FC7 /* morseTests */,
 				282343FA1A57C8E900B34FC7 /* Products */,
@@ -414,6 +418,7 @@
 				2823441E1A57C8E900B34FC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2823441F1A57C8E900B34FC7 /* Build configuration list for PBXNativeTarget "morseTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +427,7 @@
 				282344211A57C8E900B34FC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
