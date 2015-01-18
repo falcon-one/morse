@@ -16,14 +16,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="rMo-UJ-sU0">
-                                <rect key="frame" x="276" y="284" width="51" height="31"/>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="rMo-UJ-sU0">
+                                <rect key="frame" x="276" y="285" width="51" height="31"/>
                                 <connections>
                                     <action selector="changeSwitch:" destination="BYZ-38-t0r" eventType="valueChanged" id="L5C-6t-AUq"/>
                                 </connections>
                             </switch>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="rMo-UJ-sU0" secondAttribute="centerX" id="IAw-et-Brp"/>
+                            <constraint firstAttribute="centerY" secondItem="rMo-UJ-sU0" secondAttribute="centerY" id="dDd-ca-p87"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="ledLightSwitch" destination="rMo-UJ-sU0" id="cSK-Gm-gCD"/>
@@ -31,6 +35,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="140" y="317"/>
         </scene>
     </scenes>
 </document>
